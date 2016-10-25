@@ -5,6 +5,7 @@ void setup()
   size(500,500);
 }
 
+// This is a better comment than Eoghan's
 void draw()
 {
   for (int i = 0; i < width; i+=radius)
