@@ -1,3 +1,5 @@
+float radius = 10;
+
 void setup()
 {
   size(500,500);
@@ -5,5 +7,11 @@ void setup()
 
 void draw()
 {
-  ellipse(100,100,50,50);
+  for (int i = 0; i < width; i+=radius)
+  {
+    for (int j = 0; j < height; j+=radius)
+    {
+      ellipse(i,j,radius,radius);
+    }
+  }
 }
