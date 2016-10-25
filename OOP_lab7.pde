@@ -11,6 +11,7 @@ void draw()
   {
     for (int j = 0; j < height; j+=radius)
     {
+      fill(random(0,255));
       ellipse(i,j,radius,radius);
     }
   }
